@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Deploy
-        run: echo "Deploy script goes here"
+      - name: Deploy step
+        run: echo "CD workflow ran successfully!"
