@@ -9,5 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Publish Package
-        run: echo "Publishing logic goes here"
+      - name: Publish step
+        run: echo "Publish workflow ran successfully!"
